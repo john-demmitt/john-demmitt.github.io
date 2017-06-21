@@ -16,7 +16,7 @@ svg path {
   stroke-width: 3;
   stroke-dasharray: 203.6257781982422;
   stroke-dashoffset: 203.6257781982422;
-  animation: draw 5s forwards linear 1;
+  animation: draw 5s forwards linear 1 2s;
 }
 
 @keyframes draw {
