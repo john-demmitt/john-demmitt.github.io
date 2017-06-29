@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div {
+    margin: 50px auto auto auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.boxes {
+	        background: #290a43;
+    color: #d6d6d6;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dancing {
+    font-family: 'Dancing Script';
+    font-size: 2em;
+    width: 300px;
+}
+
+.cookie {
+    font-family: 'Cookie';
+    font-size: 2em;
+    width: 300px;
+}
+
+.vibes {
+    font-family: 'Great Vibes';
+    font-size: 2em;
+    width: 300px;
+}
+
+.tangerine {
+    font-family: 'Tangerine';
+    font-size: 2em;
+    width: 300px;
+}
+
+.allura {
+    font-family: 'Allura';
+    font-size: 2em;
+    width: 300px;
+}
+
+.qwigley {
+    font-family: 'Qwigley';
+    font-size: 2em;
+    width: 300px;
+}
+
+.quintessential {
+    font-family: 'Quintessential';
+    font-size: 2em;
+    width: 300px;
+}

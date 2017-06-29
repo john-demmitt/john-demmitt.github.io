@@ -1,4 +1,4 @@
-svg {
+.big {
   max-width: 95%;
   max-height: 95%;
   position: absolute;
@@ -9,19 +9,47 @@ svg {
   margin: auto;
 }
 
-svg path {
+.big {
   fill:#08c1ab;
   fill-opacity: 0;
   stroke: #000;
   stroke-width: 3;
-  stroke-dasharray: 203.6257781982422;
-  stroke-dashoffset: 203.6257781982422;
-  animation: draw 5s forwards linear 1;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation: draw 5s forwards linear 1 2s;
+}
+
+.butt {
+
+    fill:#000000;
+  fill-opacity: 0;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+
+  animation: drawbutt 2s forwards linear 1 8s;
 }
 
 @keyframes draw {
    0% {
-    stroke-dashoffset: 203.6257781982422;
+    stroke-dashoffset: 350;
+    fill-opacity:0;
+  }
+
+  94% {
+    fill-opacity:0;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity:1;
+  }
+}
+
+@keyframes drawbutt {
+   0% {
+    stroke-dashoffset: 550;
     fill-opacity:0;
   }
 
