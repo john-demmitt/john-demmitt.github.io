@@ -1,7 +1,7 @@
 .my-svg-container{
   position: relative; 
  height: 0; 
- width: 100vw; 
+ width: 100%; 
  padding: 0;
  padding-bottom: 34%;  /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
  
