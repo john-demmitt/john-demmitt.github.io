@@ -3,7 +3,7 @@
  height: 0; 
  width: 100%; 
  padding: 0;
- padding-bottom: 15%;  /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
+ padding-bottom: 69%;  /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
  
  vertical-align: middle; /* top | middle | bottom ... do what you want */
 }
