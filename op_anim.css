@@ -27,7 +27,7 @@ svg {
 }
 
 .blk-res {
-  animation: fade 2500ms linear  alternate-reverse infinite;
+  animation: fade 3500ms linear  alternate-reverse infinite;
 }
 
 
@@ -36,7 +36,7 @@ svg {
         opacity: 1;
     }
     50% {
-        opacity: 0.8;
+        opacity: 0.75;
     }
 }
 
