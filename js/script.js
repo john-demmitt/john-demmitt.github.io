@@ -13,8 +13,8 @@ jQuery(document).ready(function($) {
     var esvMove = TweenLite.fromTo($("#esv"), 5, { x: "400vw" }, { x: "-400vw" });*/
 var tl = new TimelineMax();
     tl.to([esv, mbz], 0.5, {autoAlpha:1}, "start").fromTo(mbz, 6, {  x: -width }, {x: width}, "start")
-    .to([fRim, rRim], 6, { rotation: 7000, transformOrigin: "50% 50%"}, "start")
-    .to([fWheel, rWheel], 6, { rotation: -7000, transformOrigin: "50% 50%" }, 2, "start")
+    .to([fRim, rRim], 6, { rotation: 5000, transformOrigin: "50% 50%"}, "start")
+    .to([fWheel, rWheel], 6, { rotation: -5000, transformOrigin: "50% 50%" }, 2, "start")
     .fromTo(esv, 6, { x: width }, { x: -width }, 2, "start");
     
    /* rimsRot("mbz").
