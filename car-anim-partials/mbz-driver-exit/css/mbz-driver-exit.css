@@ -1,0 +1,46 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+}
+
+.container {
+  margin: 2.5%;
+  width: 95%;
+  height: 95%;
+  position: relative;
+}
+
+.card {
+  width: 50%;
+  position: absolute;
+perspective: 1000px;
+transform-style: preserve-3d;
+perspective-origin:  right;
+}
+
+svg {
+  display: block;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+svg#mbz {
+  visibility: visible;
+}
+
+svg#rDoor {
+  visibility: visible;
+}
+
+svg#drvr {
+  visibility: visible;
+}
+
+svg#dDoor {
+  visibility: visible;
+}
+
