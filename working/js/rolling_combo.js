@@ -17,15 +17,15 @@ console.log(letters);
 console.log(wheels);
 console.log(dWidth);
 
-    tl.staggerFrom(resL, 2, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut"}, -0.2, "rollin")
-        .staggerFrom(transL, 2, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut" }, -0.1, "rollin")
-        .staggerFrom(resW, 2, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut"}, 0.2, "rollin")
-        .staggerFrom(transW, 2, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut"}, 0.1, "rollin")
+    tl.staggerFrom(resL, 2.5, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut"}, -0.2, "rollin")
+        .staggerFrom(transL, 2.5, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut" }, -0.1, "rollin")
+        .staggerFrom(resW, 2.5, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut"}, 0.2, "rollin")
+        .staggerFrom(transW, 2.5, { x: -offscreen, rotation: -2160, transformOrigin: "50% 50%", ease: "Power0.easeOut"}, 0.1, "rollin")
         .set(letters, {autoAlpha:1})
-        .staggerFrom(resL, 0.75, {opacity:0, ease: "Power0.easeOut"}, -0.2, "rollin+=1.25")
-        .staggerFrom(resW, 0.75, {opacity:1, ease: "Power0.easeOut"}, 0.2, "rollin+=1.25")
-        .staggerFrom(transL, 0.75, {opacity:0, ease: "Power0.easeOut"}, -0.12, "rollin+=1.25")
-        .staggerFrom(transW, 0.75, {opacity:1, ease: "Power0.easeOut"}, 0.12, "rollin+=1.25");
+        .staggerFrom(resL, 0.75, {opacity:0, ease: "Power0.easeOut"}, -0.2, "rollin+=1.75")
+        .staggerFrom(resW, 0.75, {opacity:1, ease: "Power0.easeOut"}, 0.2, "rollin+=1.75")
+        .staggerFrom(transL, 0.75, {opacity:0, ease: "Power0.easeOut"}, -0.07, "rollin+=1.75")
+        .staggerFrom(transW, 0.75, {opacity:1, ease: "Power0.easeOut"}, 0.07, "rollin+=1.75");
 
 
 
