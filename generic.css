@@ -1,18 +1,18 @@
 .my-svg-container{
   position: relative; 
- height: 0; 
- width: 100%; 
- padding: 0;
- padding-bottom: 34%;  /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
  
- vertical-align: middle; /* top | middle | bottom ... do what you want */
+ height: 100vh; 
+ 
+ display:flex;
+ align-items: center;
+justify-content: center; 
 }
 
 
 .my-svg{ 
   position: absolute; 
- height: 100%; 
- width: 100%; 
+ height: 100vh; 
+ width: 100vw; 
  left: 0; 
  top: 0;
 }
